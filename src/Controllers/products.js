@@ -18,4 +18,59 @@ const getAllProduct = async () => {
     return allProducts;
   }
 
-  module.exports = { getAllProduct };
+const getProductById = async (id) => {
+  const productById = await Products.findOne({
+    where:{
+      id : id
+    }
+  })
+  return productById;
+}
+
+const createProduct = async (name,description,image_url,price) => {
+  const product = await Products.findOne({
+    where:{
+      name : name
+    }
+  })
+  if(product){
+    return 'Existing product'
+  }else{
+    return await Products.create({
+      name: name,
+      description: description,
+      image_url: image_url,
+      price: price
+    })
+  }
+}
+
+const putProducts = async (id,changes) => {
+  try {
+    await Products.update(changes, {
+      where: {
+        id: id,
+      },
+    });
+    return changes
+  } catch (error) {
+    console.log(error)
+  }
+  
+}
+
+const deleteProduct = async (id) =>{
+  try {
+    await Products.destroy({
+      where:{
+        id : id
+      }
+    })
+    return "Viewer deleted succesfully"
+  } catch (error) {
+    console.log(error)
+  }
+}
+    
+
+  module.exports = { getAllProduct, getProductById,createProduct,putProducts, deleteProduct };
