@@ -25,9 +25,9 @@ router.get("/:id", async (req,res,next) => {
 })
 
 router.post("/", async (req,res,next) => {
-  const {name,description,image_url,price} = req.body;
+  const {name,description,image_url,price,auth} = req.body;
   try{
-    const product = await createProduct(name,description,image_url,price)
+    const product = await createProduct(name,description,image_url,price,auth)
     product ? res.json(product) : res.status(400).json({msg: 'Error!'})
   } catch (err){
     next(err)
@@ -35,12 +35,12 @@ router.post("/", async (req,res,next) => {
 })
 
 router.put("/:id", async (req, res, next) => {
-  const changes = req.body;
+  const {changes,auth} = req.body;
 
   const { id } = req.params;
 
   try {
-    const putProduct = await putProducts(id,changes)
+    const putProduct = await putProducts(id,changes,auth)
     putProduct ? res.json(putProduct) : res.status(400).json({msg: 'Error!'})
   } catch (err) {
     next(err);
@@ -49,8 +49,9 @@ router.put("/:id", async (req, res, next) => {
 
 router.delete("/:id", async (req,res,next) =>{
   const { id } = req.params;
+  const auth = req.body;
   try {
-    const productDelete = await deleteProduct(id)
+    const productDelete = await deleteProduct(id,auth)
     productDelete ? res.json(productDelete) : res.status(400).json({msg : 'Error!'})
   } catch (err) {
     next(err)

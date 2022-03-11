@@ -42,8 +42,12 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { Products } = sequelize.models
-console.log('Products',Products)
+const { Products, Brands } = sequelize.models;
+
+Brands.hasMany(Products,  {
+  foreignKey: 'brandId'
+});
+Products.belongsTo(Brands);
 
 
 

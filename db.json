@@ -1,104 +1,178 @@
-[
-    
-        
+{
+    "brands": [
+        {
+            "name": "Nutro",
+            "logo_url": "https://nutro.com/-/media/barefootpetcare/nutro/global/nutro-logo-natural-choice.png?h=118&w=122&hash=06699592F7376D6B238DC016F0016004A44EB155"
+        },
+        {
+            "name": "Blue Wilderness",
+            "logo_url": "https://bluebuffalo.com/contentassets/ba293c1fd3a743688e7847570661b5fc/logo.png"
+        },
+        {
+            "name": "Authority",
+            "logo_url": "https://imgs.search.brave.com/ilR-JCUSkPg9KIF6omOEJZ5-cphI2VH8Ookklh5LlwI/rs:fit:807:807:1/g:ce/aHR0cHM6Ly9nb29k/cHVwcHlmb29kLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8wNS9BdXRob3Jp/dHktZG9nLWZvb2Qt/bG9nby1lMTU1Nzgx/NzgxNDY0Ny5wbmc"
+        },
+        {
+            "name": "Bayer",
+            "logo_url": "https://imgs.search.brave.com/HdmGN2ZX8pD0DJ8xGswum1aWr_ZmteRB0xlsaHjcd_M/rs:fit:400:400:1/g:ce/aHR0cHM6Ly9hc20u/Z2ljYW5jZXIub3Jn/LmF1L3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzEwL05FVy1C/QVlFUi1MT0dPLTMt/NDAweDQwMC5wbmc"
+        },
+        {
+            "name": "Frontline",
+            "logo_url": "https://imgs.search.brave.com/lo7Fx8pMOzuB_uYR8GsCICkY5wqO5aQrRdDZx6YgsUE/rs:fit:1200:549:1/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzIxNDIyMTMuanBn"
+        },
+        {
+            "name": "Top Paw",
+            "logo_url": "https://imgs.search.brave.com/23iYeYI3LHpM1qGRwLzB2hOGY_BECXcm3gPvfMSjSOY/rs:fit:320:190:1/g:ce/aHR0cHM6Ly9tYXJr/LnRyYWRlbWFya2lh/LmNvbS9sb2dvLWlt/YWdlcy9wZXRzbWFy/dC1ob21lLW9mZmlj/ZS90b3AtcGF3LTg3/MzQxMDAzLmpwZw"
+        },
+        {
+            "name": "Simply Nourish",
+            "logo_url": "https://imgs.search.brave.com/CuFPpi4GeNHUOHsPP8nzn_gEyGm0ol9xJ0fqOzKQ6No/rs:fit:155:90:1/g:ce/aHR0cHM6Ly9zN2Qy/LnNjZW5lNy5jb20v/aXMvaW1hZ2UvUGV0/U21hcnQvV0VCLTIw/LTU2ODgxMi1KQU4t/MjBfU05fTG9nb19V/cGRhdGVfMzIweDI1/MD8kYmxwLWJyYW5k/LWxvZ29fc21hbGwk"
+        },
+        {
+            "name": "Merrick",
+            "logo_url": "https://imgs.search.brave.com/fwexQycBYr_1IPxiKHhDDsjhDjNbVal5_GJcmDeRk70/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9tbWEu/cHJuZXdzd2lyZS5j/b20vbWVkaWEvMjgz/MzMwL21lcnJpY2tf/bG9nby5qcGc_cD1w/dWJsaXNo"
+        },
+        {
+            "name": "Wellness",
+            "logo_url": "https://imgs.search.brave.com/16kTsoGVSRwLbKuAs5f1tczWgEepLBw66WQqDCQbFfk/rs:fit:1200:1200:1/g:ce/aHR0cDovL3Bob3Rv/cy5wcm5ld3N3aXJl/LmNvbS9wcm5mdWxs/LzIwMTUxMDA5LzI3/NTc3NExPR08_bWF4/PTgwMA"
+        },
+        {
+            "name": "Tiki Cat",
+            "logo_url": "https://imgs.search.brave.com/VLRmbT2odewaMuper2L8pGwZMLNS1LWjG6CIeqwRnns/rs:fit:202:179:1/g:ce/aHR0cHM6Ly9hbGxh/Ym91dGNhdHMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzAzL3Rpa2ktY2F0/LWxvZ28tMS5wbmc"
+        },
+        {
+            "name": "Applaws",
+            "logo_url": "https://imgs.search.brave.com/4uR2kg1-TIsWpQgZ76fOInIWNvxVFC7wPcEf0Ei-4CU/rs:fit:301:137:1/g:ce/aHR0cHM6Ly93ZXJl/YWxsYWJvdXRwZXRz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8xMS9hcHBs/YXdzLWxvZ28ucG5n"
+        },
+        {
+            "name": "Natural Balance",
+            "logo_url": "https://imgs.search.brave.com/Q2ReQCIVAFnEF0Tozx1uAVHf0V_K-k_s4lGLLnpDbd4/rs:fit:1200:630:1/g:ce/aHR0cHM6Ly9zMy51/cy1lYXN0LTIuYW1h/em9uYXdzLmNvbS9q/bXMtczMtbWt0LXBl/dC1wLXBtYzYvdG1w/L2ltYWdlLXRodW1i/bmFpbHMvbmF0dXJh/bGJhbGFuY2UvaW1h/Z2UtdGh1bWJfXzcx/ODFfX2F1dG9fNjNh/NjEyODA4OTExNmQ0/ZTk1NDA1MjU5NmFl/ZTZhZmUvbmF0dXJh/bC1iYWxhbmNlLW9n/LWdsb2JhbC5wbmc"
+        },
+        {
+            "name": "Nulo",
+            "logo_url": "https://imgs.search.brave.com/VteGT1jmmKDiALPnK6l_eBatWEFQowxZEe9v_6XDNts/rs:fit:432:288:1/g:ce/aHR0cHM6Ly90YWls/c29mdGhlY2l0eXN0/b3Jlcy5jb20vcHJv/ZHVjdF9pbWFnZXMv/dXBsb2FkZWRfaW1h/Z2VzL251bG8tbG9n/by1oZWFsdGhpZXIt/cmV2ZXJzZS5wbmc"
+        },
+        {
+            "name": "Kong",
+            "logo_url": "https://imgs.search.brave.com/7fbk1E0P5fcSHwfRlEyVK0ipI5bXtFrsuIHT8tij9LY/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly93d3cu/cmluZ3dvb2QtZG9n/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDUvS09O/R19sb2dvLV8xMjAw/eDEyMDAtMTAyNHgx/MDI0LmpwZw"
+        }
+    ],  
+    "products":[
             {
-                "name" : "Nutro Natural Choice",
+                "name" : "Natural Choice",
                 "description": "Healthy Weight Adult Dry Dog Food - Non-GMO, Chicken & Brown Rice",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5231834?$CLEARjpg$",
-                "price": "$54.99"
+                "price": "$54.99",
+                "brandId": 1
             },
             {
-                "name" : "Blue Buffalo Wilderness",
-                "description": "Adult Dry Dog Food - Grain Free, Natural, Chicken",
+                "name" : "Adult Dry Dog Food",
+                "description": "Grain Free, Natural, Chicken",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5323284?$CLEARjpg$",
-                "price": "$68.99"
+                "price": "$68.99",
+                "brandId": 2
             },
             {
-                "name" : "Authority Large Breed",
+                "name" : "Large Breed",
                 "description": "Adult Dog Food - Chicken & Rice",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5279157?$CLEARjpg$",
-                "price": "$44.99"
+                "price": "$44.99",
+                "brandId": 3
             },
             {
                 "name" : "Seresto",
                 "description": "Flea & Tick Dog Collar",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5192440?$CLEARjpg$",
-                "price": "$62.99"
+                "price": "$62.99",
+                "brandId": 4
             },
             {
-                "name" : "Frontline Plus",
-                "description": "Flea & Tick Dog Treatment 45-88 lbs",
+                "name" : "Flea & Tick",
+                "description": "Dog Treatment 45-88 lbs",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5152706?$CLEARjpg$",
-                "price": "$38.99"
+                "price": "$38.99",
+                "brandId": 5
             },
             {
-                "name" : "Top Paw",
-                "description": "Boss Bones™ Dog Chew Toys - 3 Pack",
+                "name" : "Boss Bones™",
+                "description": "Dog Chew Toys - 3 Pack",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5292673?$CLEARjpg$",
-                "price": "$21.99"
+                "price": "$21.99",
+                "brandId": 6
             },
             {
-                "name" : "Simply Nourish",
-                "description": "Soft Chews Bone Shaped Dog Treat - Natural",
+                "name" : "Soft Chews",
+                "description": "Bone Shaped Dog Treat - Natural",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5285954?$CLEARjpg$",
-                "price": "$6.49"
+                "price": "$6.49",
+                "brandId": 7
             },
             {
-                "name" : "KONG",
-                "description": "Ali The Alligator Dog Toy - Plush, Squeaker",
+                "name" : "Ali The Alligator",
+                "description": "Dog Toy - Plush, Squeaker",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5171155?$CLEARjpg$",
-                "price": "$4.79"
+                "price": "$4.79",
+                "brandId": 14
             },
             {
-                "name" : "Merrick",
-                "description": "Purrfect Bistro ™ Pate Wet Cat Food - Natural, Grain Free",
+                "name" : "Purrfect Bistro ™",
+                "description": "Pate Wet Cat Food - Natural, Grain Free",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288295?$CLEARjpg$",
-                "price": "$2.39"
+                "price": "$2.39",
+                "brandId": 8
             },
             {
-                "name" : "Wellness",
-                "description": "CORE® Tiny Tasters Wet Cat Food - Natural, Grain Free, Single Serve",
+                "name" : "CORE®",
+                "description": "Tiny Tasters Wet Cat Food - Natural, Grain Free, Single Serve",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288207?$CLEARjpg$",
-                "price": "$0.94"
+                "price": "$0.94",
+                "brandId": 9
             },
             {
-                "name" : "Tiki Cat",
-                "description": "Velvet™ Mousse Cat Food - Non-GMO, Grain & Potato Free, 2.8oz",
+                "name" : "Velvet™",
+                "description": "Mousse Cat Food - Non-GMO, Grain & Potato Free, 2.8oz",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5298952?$CLEARjpg$",
-                "price": "$1.63"
+                "price": "$1.63",
+                "brandId": 10
             },
             {
-                "name" : "Applaws",
+                "name" : "Loin",
                 "description": "Cat Treat, Natural",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5282020?$CLEARjpg$",
-                "price": "$2.99"
+                "price": "$2.99",
+                "brandId": 11
             },
             {
-                "name" : "Natural Balance Platefulls Cat Food",
+                "name" : "Platefulls Cat Food",
                 "description": "Grain Free, Turkey, Chicken & Duck",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5235420?$CLEARjpg$",
-                "price": "$1.04"
+                "price": "$1.04",
+                "brandId": 12
             },
             {
-                "name" : "Simply Nourish",
-                "description": "SOURCE ™ Adult Cat Food Meal Topper- Natural, High Protein, Grain Free",
+                "name" : "Source",
+                "description": "Adult Cat Food Meal Topper- Natural, High Protein, Grain Free",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5287295?$CLEARjpg$",
-                "price": "$1.29"
+                "price": "$1.29",
+                "brandId": 7
             },
             {
-                "name" : "Nulo Medal Series",
+                "name" : "Medal Series",
                 "description": "Cat Food Broth - Natural",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5309145?$CLEARjpg$",
-                "price": "$2.19"
+                "price": "$2.19",
+                "brandId": 13
             },
             {
                 "name" : " Backcountry",
                 "description": "Morsels in Gravy Wet Kitten Food - Natural, Grain Free, High Protein",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288398?$CLEARjpg$",
-                "price": "$1.69"
+                "price": "$1.69",
+                "brandId": 8
             }
-        
+    ]
+    
+}
         
     
     
-]
