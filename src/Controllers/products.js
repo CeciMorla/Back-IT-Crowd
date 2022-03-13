@@ -1,4 +1,4 @@
-const { Products } = require("../db");
+const { Products, Admins } = require("../db");
 const { Op } = require("sequelize");
 
 const api = require("../../db.json");
@@ -7,7 +7,9 @@ const getAllProduct = async () => {
     
     const allProducts = await Products.findAll({
       order: ["id"],
-      
+      include :{
+        model : Admins
+      }
     });
   
     if (!allProducts.length) {
@@ -27,8 +29,8 @@ const getProductById = async (id) => {
   return productById;
 }
 
-const createProduct = async (name,description,image_url,price,auth) => {
-  if(auth){
+const createProduct = async (name,description,image_url,price) => {
+    
     const product = await Products.findOne({
       where:{
         name : name
@@ -44,9 +46,7 @@ const createProduct = async (name,description,image_url,price,auth) => {
         price: price
       })
     }
-  } else{
-    return 'unauthorized'
-  }
+  
   
 }
 

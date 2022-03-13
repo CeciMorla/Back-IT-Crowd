@@ -170,8 +170,17 @@
                 "price": "$1.69",
                 "brandId": 8
             }
+    ],
+    "admins":[
+        {
+            "email": "admin1@admin.com.ar",
+            "password": 123456
+        },
+        {
+            "email": "admin2@admin.com.ar",
+            "password": 123456
+        }
     ]
-    
 }
         
     

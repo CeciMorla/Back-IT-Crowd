@@ -42,12 +42,13 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { Products, Brands } = sequelize.models;
+const { Products, Brands, Admins } = sequelize.models;
 
-Brands.hasMany(Products,  {
-  foreignKey: 'brandId'
-});
+Brands.hasMany(Products);
 Products.belongsTo(Brands);
+
+Admins.belongsToMany(Products, { through: "admin_product" });
+Products.belongsToMany(Admins, { through: "admin_product" });
 
 
 

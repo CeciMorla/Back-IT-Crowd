@@ -11,7 +11,7 @@ const getAllBrands = async () => {
     });
   
     if (!allBrands.length) {
-      const allBrandsdb = await Products.bulkCreate(api.brands)
+      const allBrandsdb = await Brands.bulkCreate(api.brands)
       return allBrandsdb
     }
     
