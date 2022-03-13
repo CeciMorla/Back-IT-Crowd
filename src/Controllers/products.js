@@ -50,8 +50,8 @@ const createProduct = async (name,description,image_url,price) => {
   
 }
 
-const putProducts = async (id,changes,auth) => {
-  if(auth){
+const putProducts = async (id,changes) => {
+  
     try {
       await Products.update(changes, {
         where: {
@@ -62,15 +62,13 @@ const putProducts = async (id,changes,auth) => {
     } catch (error) {
       console.log(error)
     }
-  }else{
-    return 'unauthorized'
-  }
+  
   
   
 }
 
-const deleteProduct = async (id,auth) =>{
-  if(auth){
+const deleteProduct = async (id) =>{
+  
     try {
       await Products.destroy({
         where:{
@@ -81,9 +79,7 @@ const deleteProduct = async (id,auth) =>{
     } catch (error) {
       console.log(error)
     }
-  }else{
-    return 'unauthorized'
-  }
+  
   
 }
     

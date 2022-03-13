@@ -36,12 +36,11 @@ router.post("/", async (req,res,next) => {
 })
 
 router.put("/:id", async (req, res, next) => {
-  const {changes,auth} = req.body;
-
+  const {changes} = req.body;
   const { id } = req.params;
 
   try {
-    const putProduct = await putProducts(id,changes,auth)
+    const putProduct = await putProducts(id,changes)
     putProduct ? res.json(putProduct) : res.status(400).json({msg: 'Error!'})
   } catch (err) {
     next(err);
@@ -50,9 +49,9 @@ router.put("/:id", async (req, res, next) => {
 
 router.delete("/:id", async (req,res,next) =>{
   const { id } = req.params;
-  const auth = req.body;
+ 
   try {
-    const productDelete = await deleteProduct(id,auth)
+    const productDelete = await deleteProduct(id)
     productDelete ? res.json(productDelete) : res.status(400).json({msg : 'Error!'})
   } catch (err) {
     next(err)
