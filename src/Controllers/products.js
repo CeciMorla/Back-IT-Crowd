@@ -1,4 +1,4 @@
-const { Products, Admins } = require("../db");
+const { Products } = require("../db");
 const { Op } = require("sequelize");
 
 const api = require("../../db.json");
@@ -7,9 +7,7 @@ const getAllProduct = async () => {
     
     const allProducts = await Products.findAll({
       order: ["id"],
-      include :{
-        model : Admins
-      }
+      
     });
   
     if (!allProducts.length) {
@@ -43,7 +41,8 @@ const createProduct = async (name,description,image_url,price) => {
         name: name,
         description: description,
         image_url: image_url,
-        price: price
+        price: price,
+        brandId: 15
       })
     }
   
@@ -51,7 +50,7 @@ const createProduct = async (name,description,image_url,price) => {
 }
 
 const putProducts = async (id,changes) => {
-  
+    console.log(changes)
     try {
       await Products.update(changes, {
         where: {

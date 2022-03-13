@@ -1,8 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 const {getAllProduct, getProductById,createProduct,putProducts,deleteProduct} = require("../Controllers/products");
-const Products = require("../db.js");
-//const { Products } = require("../db");
+
 
 router.get("/", async (req, res, next) => {
     

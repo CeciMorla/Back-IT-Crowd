@@ -6,7 +6,7 @@
         },
         {
             "name": "Blue Wilderness",
-            "logo_url": "https://bluebuffalo.com/contentassets/ba293c1fd3a743688e7847570661b5fc/logo.png"
+            "logo_url": "https://www.nasc.cc/wp-content/uploads/2017/03/02-Mar20-2017.png"
         },
         {
             "name": "Authority",
@@ -55,12 +55,16 @@
         {
             "name": "Kong",
             "logo_url": "https://imgs.search.brave.com/7fbk1E0P5fcSHwfRlEyVK0ipI5bXtFrsuIHT8tij9LY/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly93d3cu/cmluZ3dvb2QtZG9n/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDUvS09O/R19sb2dvLV8xMjAw/eDEyMDAtMTAyNHgx/MDI0LmpwZw"
+        },
+        {
+            "name": "Default",
+            "logo_url": "https://dam.ngenespanol.com/wp-content/uploads/2019/10/aninmales-dia-mundial.jpg"
         }
     ],  
     "products":[
             {
                 "name" : "Natural Choice",
-                "description": "Healthy Weight Adult Dry Dog Food - Non-GMO, Chicken & Brown Rice",
+                "description": "Healthy Weight Adult Dry Dog Food",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5231834?$CLEARjpg$",
                 "price": "$54.99",
                 "brandId": 1
@@ -116,21 +120,21 @@
             },
             {
                 "name" : "Purrfect Bistro ™",
-                "description": "Pate Wet Cat Food - Natural, Grain Free",
+                "description": "Pate Wet Cat Food",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288295?$CLEARjpg$",
                 "price": "$2.39",
                 "brandId": 8
             },
             {
                 "name" : "CORE®",
-                "description": "Tiny Tasters Wet Cat Food - Natural, Grain Free, Single Serve",
+                "description": "Tiny Tasters Wet Cat Food",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288207?$CLEARjpg$",
                 "price": "$0.94",
                 "brandId": 9
             },
             {
                 "name" : "Velvet™",
-                "description": "Mousse Cat Food - Non-GMO, Grain & Potato Free, 2.8oz",
+                "description": "Mousse Cat Food",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5298952?$CLEARjpg$",
                 "price": "$1.63",
                 "brandId": 10
@@ -151,7 +155,7 @@
             },
             {
                 "name" : "Source",
-                "description": "Adult Cat Food Meal Topper- Natural, High Protein, Grain Free",
+                "description": "Adult Cat Food Meal Topper",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5287295?$CLEARjpg$",
                 "price": "$1.29",
                 "brandId": 7
@@ -165,22 +169,13 @@
             },
             {
                 "name" : " Backcountry",
-                "description": "Morsels in Gravy Wet Kitten Food - Natural, Grain Free, High Protein",
+                "description": "Morsels in Gravy Wet Kitten Food",
                 "image_url": "https://s7d2.scene7.com/is/image/PetSmart/5288398?$CLEARjpg$",
                 "price": "$1.69",
                 "brandId": 8
             }
-    ],
-    "admins":[
-        {
-            "email": "admin1@admin.com.ar",
-            "password": 123456
-        },
-        {
-            "email": "admin2@admin.com.ar",
-            "password": 123456
-        }
     ]
+    
 }
         
     
